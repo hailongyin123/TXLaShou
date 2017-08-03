@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_idcard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_id_name"
+    tools:context="com.txls.txlashou.home.IDCardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed">
+        <ImageView
+            android:id="@+id/img_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/btn_return"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认身份信息"
+            android:textSize="@dimen/activity_reg_text_size"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/color_phone_code"
+        android:paddingTop="15dp"
+        android:textSize="12sp"
+        android:text="您在天下分期的每一笔消费都附有正规电子合同保障您的权益，请告诉我们合同中需要使用到您的真实身份信息。"
+        android:background="@color/color_white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorRed"
+        android:paddingTop="15dp"
+        android:textSize="12sp"
+        android:text="身份信息确认后不能更改，请您务必准确填写。"
+        android:background="@color/color_white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_phone_code"
+        android:paddingTop="15dp"
+        android:textSize="12sp"
+        android:text="您在天下分期的每一笔消费都附有正规电子合同保障您的权益，请告诉我们合同中需要使用到您的真实身份信息。"
+        android:background="@color/color_white"/>
+
+    <EditText
+        android:id="@+id/id_card_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_white"
+        android:textColorHint="@color/color_phone_code"
+        android:textColor="@color/color_black"
+        android:singleLine="true"
+        android:paddingLeft="20dp"
+        android:hint="请输入您的真实姓名"/>
+
+    <EditText
+        android:id="@+id/id_card_number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_white"
+        android:textColor="@color/color_black"
+        android:textColorHint="@color/color_phone_code"
+        android:paddingLeft="20dp"
+        android:singleLine="true"
+        android:hint="请输入您的身份证号"/>
+
+    <Button
+        android:id="@+id/btn_id_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@mipmap/btn_submit"
+        android:text="确认"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="客服电话：4008-985-985"
+        android:textColor="@color/colorRed"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12sp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">天下分期</string>
+    <string name="app_first">首页</string>
+    <string name="app_login_text">登录</string>
+    <string name="app_register_text">注册</string>
+    <string name="app_phone_number">手机号</string>
+    <string name="app_phone_code">手机验证码</string>
+    <string name="app_password_name">密码</string>
+    <string name="app_login_forget_password">忘记密码?</string>
+    <string name="app_pay_password_name">支付密码</string>
+    <string name="app_pay_money">还款</string>
+    <string name="app_pay_list">账单</string>
+    <string name="app_pay_rules">合同</string>
+    <string name="cannot_open_file_Path">Cannot open file: %1$s</string>
+    <string name="cannot_open_buffer">Cannot open buffer</string>
+    <string name="not_supported">Not supported</string>
+</resources>

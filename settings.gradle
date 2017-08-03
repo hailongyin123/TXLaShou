@@ -1,0 +1,2 @@
+include ':app', ':Tools', ':SlidingMenu'
+project(':Tools').projectDir = new File('Tool')

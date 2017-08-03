@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_repayment_now"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_id_name"
+    android:orientation="vertical"
+    tools:context="com.txls.txlashou.home.RepaymentSelectActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed">
+        <ImageView
+            android:id="@+id/img_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/btn_return"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="还款"
+            android:textSize="@dimen/activity_reg_text_size"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+      <ListView
+          android:id="@+id/lv_repayment"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/color_phone_code">
+      </ListView>
+
+    <Button
+        android:id="@+id/btn_repayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/btn_submit"
+        android:textSize="20sp"
+        android:text="还款" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorRed"
+        android:layout_gravity="center_horizontal"
+        android:text="*按时还款可避免产生逾期费用"/>
+
+</LinearLayout>

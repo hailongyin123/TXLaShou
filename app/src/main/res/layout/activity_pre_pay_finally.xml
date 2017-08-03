@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pre_pay_finally"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_id_name"
+    android:orientation="vertical"
+    tools:context="com.txls.txlashou.home.PrePayFinallyActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed">
+        <ImageView
+            android:id="@+id/img_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/btn_return"/>
+        <TextView
+            android:id="@+id/tv_repayment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="还款结果"
+            android:textSize="@dimen/activity_reg_text_size"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/img_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/img_succeed"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_pay"
+            android:gravity="center"
+            android:text="完成"
+            android:layout_marginBottom="30dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorRed" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/prepay_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="默认支付成时间点没了"
+        android:textColor="@color/colorRed"/>
+    <Button
+        android:id="@+id/btn_repayment_finally"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/btn_submit"
+        android:textSize="20sp"
+        android:text="完成" />
+
+</LinearLayout>

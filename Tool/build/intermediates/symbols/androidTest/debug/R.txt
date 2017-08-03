@@ -1,0 +1,4 @@
+int id myProcessBar 0x7f030002
+int id notify_icon 0x7f030000
+int id title 0x7f030001
+int layout download_notification 0x7f020000

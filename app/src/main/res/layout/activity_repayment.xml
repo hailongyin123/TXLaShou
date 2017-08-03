@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_repayment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_id_name"
+    tools:context="com.txls.txlashou.home.RepaymentActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed">
+        <ImageView
+            android:id="@+id/img_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/btn_return"/>
+        <TextView
+            android:id="@+id/tv_repayment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="还款"
+            android:textSize="@dimen/activity_reg_text_size"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/tv_repayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/tv_repayment_text"
+            android:text="还款明细"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/color_white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_phone_code"
+            android:text="本次还款金额 1500.00 元"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRed"
+            android:layout_marginTop="20dp"
+            android:text="*最后还款日期8月18日"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_repayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/btn_submit"
+        android:textSize="20sp"
+        android:text="还款" />
+
+    <Button
+        android:id="@+id/btn_prepayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/btn_prepayment"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp"
+        android:text="提前还款"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:textColor="@color/colorRed"
+        android:layout_gravity="center_horizontal"
+        android:text="*按时还款可避免产生逾期费用"/>
+
+</LinearLayout>

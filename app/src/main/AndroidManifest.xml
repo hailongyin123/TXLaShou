@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.txls.txlashou">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.support.multidex.MultiDexApplication" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".home.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".home.LoginActivity" />
+        <activity android:name=".home.RegisterActivity" />
+        <activity android:name=".home.IDCardActivity" />
+        <activity android:name=".home.BankActivity" />
+        <activity android:name=".home.PayPasswordActivity" />
+        <activity android:name=".home.ForgetPasswordActivity" />
+        <activity android:name=".home.FindPasswordActivity" />
+        <activity android:name=".home.ContentActivity" />
+        <activity android:name=".home.RepaymentActivity" />
+        <activity android:name=".home.RepaymentSelectActivity" />
+        <activity android:name=".home.RepaymentDetailsActivity" />
+        <activity android:name=".home.ListTimeLineActivity" />
+        <activity android:name=".home.ListBillActivity" />
+        <activity android:name=".home.RepaymentNowActivity" />
+        <activity android:name=".home.PrepaymentTwoActivity" />
+        <activity android:name=".home.InputPasswordActivity" />
+        <activity android:name=".home.PrepaymentActivity" />
+        <activity android:name=".home.PayFinallyActivity" />
+        <activity android:name=".home.RepaymentNotesActivity" />
+        <activity android:name=".home.UserMessageActivity" />
+        <activity android:name=".home.WelcomeActivity" />
+        <activity android:name=".home.MessageCenter" />
+        <activity android:name=".home.GuideActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+
+        <activity android:name=".home.WordReadActivity" />
+        <activity android:name=".home.WordActivity" />
+        <activity android:name=".home.PrePayFinallyActivity" />
+        <activity android:name=".home.PasswordSafeActivity" />
+        <activity android:name=".home.AboutUsActivity" />
+        <activity android:name=".home.MessageDetailsActivity" />
+        <activity android:name=".home.ContentListActivity"></activity>
+    </application>
+
+</manifest>
